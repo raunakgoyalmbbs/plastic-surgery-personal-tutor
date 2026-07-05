@@ -1,0 +1,40 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+type: software
+title: "Plastic Surgery Personal Tutor"
+authors:
+  - family-names: Goyal
+    given-names: Raunak
+    orcid: "https://orcid.org/0000-0003-1417-344X"
+version: 1.0.0
+date-released: 2026-07-05
+license: MIT
+repository-code: "https://github.com/raunakgoyalmbbs/plastic-surgery-personal-tutor"
+# doi: 10.5281/zenodo.XXXXXXX  # TODO: add the Zenodo DOI here after the first release is archived
+keywords:
+  - plastic surgery
+  - medical education
+  - agentic AI
+  - graph RAG
+  - retrieval-augmented generation
+  - knowledge graph
+  - large language models
+  - surgical training
+  - AI tutor
+abstract: >-
+  Plastic Surgery Personal Tutor is an open-source, agentic AI tutoring web
+  application for plastic surgery education. It combines a React single-page
+  frontend with Supabase Edge Functions that orchestrate Google Gemini models
+  for text chat and real-time audio tutoring, and a graph-based
+  retrieval-augmented generation (Graph RAG) pipeline built on LightRAG and
+  OpenAI embeddings over a curated corpus of plastic surgery textbooks and
+  journal articles indexed into a knowledge graph of clinical entities and
+  relationships. The system grounds every answer in the indexed medical
+  literature via pgvector similarity search and one-hop knowledge-graph
+  traversal, guarding against hallucination, and adds agentic capabilities:
+  training-level-adaptive instruction (medical student through senior
+  resident), autonomous clinical-vignette and multiple-choice quiz generation
+  from recently studied topics, multilingual audio tutoring, and progress
+  tracking. The software is intended as a research artifact for studying
+  AI-assisted surgical education and as a reusable template any training
+  program can index with its own curriculum.

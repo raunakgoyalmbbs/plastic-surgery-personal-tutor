@@ -1,0 +1,7 @@
+{
+  "description": "Plastic Surgery Personal Tutor with custom knowledge base and quiz mode.",
+  "requestFramePermissions": [
+    "microphone"
+  ],
+  "name": "Plastic Surgery Personal Tutor"
+}

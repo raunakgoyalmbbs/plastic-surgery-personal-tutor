@@ -1,0 +1,41 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+
+# Environment files (never commit secrets)
+.env
+.env.local
+.env*.local
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+
+# Tooling
+.vercel/
+.claude/
+
+# Source PDFs (copyrighted material — never commit)
+journal_articles/
+
+# LightRAG runtime (local indexing artifacts and secrets)
+LightRAG/.venv/
+LightRAG/rag_storage/
+LightRAG/inputs/
+LightRAG/output/
+LightRAG/lightrag_webui/node_modules/
+LightRAG/.env
+LightRAG/*.log*
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Knowledge base build artifacts
+kb/corpus/
+kb/.cache/
