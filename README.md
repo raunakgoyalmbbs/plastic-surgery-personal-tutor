@@ -4,7 +4,7 @@ Plastic Surgery Personal Tutor is an open-source, **agentic AI** tutoring applic
 
 Beyond answering questions, the tutor behaves as an educational *agent*: it reasons through multi-step tasks, retrieves from the knowledge base during a session, adapts its instruction to the learner's training level (medical student, junior resident, senior resident), autonomously generates clinical vignettes and multiple-choice quizzes on recently studied topics, and supports study through text and multilingual audio. The system is intended for surgical trainees as learners, and for surgical educators who wish to reproduce the pipeline with their own document corpus to build an institution-specific tutor.
 
-## How it works, in plain language
+## How it works
 
 Before the technical details, here is the overall idea explained without jargon. The system is made of a few parts that work together:
 
